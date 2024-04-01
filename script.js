@@ -28,15 +28,31 @@
 
 //EXERCÍCIO 3
  
-let peso = parseFloat(prompt('Digite seu peso em quilogramas.'));
-let altura = parseFloat(prompt('Digite sua altura em metros.'));
+//let peso = parseFloat(prompt('Digite seu peso em quilogramas.'));
+//let altura = parseFloat(prompt('Digite sua altura em metros.'));
 
-let IMC = peso / (altura * altura);
+//let IMC = peso / (altura * altura);
    
-if (IMC < 18.5) {
-    console.log('Você está abaixo do peso.');
-} else if (IMC >= 18.5 && IMC <= 24.9) {
-    console.log('Você está no peso ideal.');
+//if (IMC < 18.5) {
+    //console.log('Você está abaixo do peso.');
+//} else if (IMC >= 18.5 && IMC <= 24.9) {
+    //console.log('Você está no peso ideal.');
+//} else {
+    //console.log('Você está acima do peso.');
+//}
+
+//EXERCÍCIO 4
+
+let idade = parseInt(prompt("Qual a sua idade? "));
+
+if (idade <= 12) {
+    console.log("Você é uma criança.");
+} else if (idade >= 13 && idade <= 18) {
+    console.log("Você é um adolescente.");
+} else if (idade >= 19 && idade <= 60) {
+    console.log("Você é um adulto.");
 } else {
-    console.log('Você está acima do peso.');
+    console.log("Você é um idoso.");
 }
+
+
