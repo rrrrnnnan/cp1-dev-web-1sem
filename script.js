@@ -103,20 +103,27 @@
 
 //EXERCÍCIO 8
 
-let texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.";
+//let texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.";
     
 //Buscando a primeira posição de “em”
-let posicaoEm = texto.indexOf('em');
-console.log('A primeira posição de "em" é: ' + posicaoEm);
+//let posicaoEm = texto.indexOf('em');
+//console.log('A primeira posição de "em" é: ' + posicaoEm);
     
 //Buscando a última posição de “ia”
-let posicaoIa = texto.lastIndexOf('ia');
-console.log('A última posição de "ia" é: ' + posicaoIa);
+//let posicaoIa = texto.lastIndexOf('ia');
+//console.log('A última posição de "ia" é: ' + posicaoIa);
     
 //Buscando a palavra “ciência”
-let posicaoCiencia = texto.indexOf('ciência');
-console.log('A posição da palavra "ciência" é: ' + posicaoCiencia);
+//let posicaoCiencia = texto.indexOf('ciência');
+//console.log('A posição da palavra "ciência" é: ' + posicaoCiencia);
     
 //Buscando a palavra “métodos”
-let posicaoMetodos = texto.indexOf('métodos');
-console.log('A posição da palavra "métodos" é: ' + posicaoMetodos);
+//let posicaoMetodos = texto.indexOf('métodos');
+//console.log('A posição da palavra "métodos" é: ' + posicaoMetodos);
+
+//EXERCÍCIO 9
+
+    var valorString = '123.45';
+    var valorFloat = parseFloat(valorString);
+    
+    console.log('O tipo da variável agora é: ' + typeof valorFloat);
