@@ -71,17 +71,32 @@
 
 //EXERCÍCIO 6
 
-let nota1 = parseFloat(prompt("Insira sua primeira nota."));
-let nota2 = parseFloat(prompt("Insira sua segunda nota."));
-let nota3 = parseFloat(prompt("Insira sua terceira nota."));
-let nota4 = parseFloat(prompt("Insira sua quarta nota."));
-let nota5 = parseFloat(prompt("Insira sua quinta nota."));
-let nota6 = parseFloat(prompt("Insira sua sexta nota."));
-let nota7 = parseFloat(prompt("Insira sua sétima nota."));
-let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7;
+//let nota1 = parseFloat(prompt("Insira sua primeira nota."));
+//let nota2 = parseFloat(prompt("Insira sua segunda nota."));
+//let nota3 = parseFloat(prompt("Insira sua terceira nota."));
+//let nota4 = parseFloat(prompt("Insira sua quarta nota."));
+//let nota5 = parseFloat(prompt("Insira sua quinta nota."));
+//let nota6 = parseFloat(prompt("Insira sua sexta nota."));
+//let nota7 = parseFloat(prompt("Insira sua sétima nota."));
+//let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7;
 
-if (media >= 6) {
-    console.log("Você foi aprovado.");
-} else {
-    console.log("Você foi reprovado.");
-}
+//if (media >= 6) {
+    //console.log("Você foi aprovado.");
+//} else {
+    //console.log("Você foi reprovado.");
+//}
+
+//EXERCÍCIO 7
+
+document.addEventListener('DOMContentLoaded', function() {
+    var perfil = document.getElementById('perfil');
+    var nome = 'Nicolle';
+    var idade = '21';
+    var curso = 'Engenharia de Software';
+    var ano = '1º Ano';
+
+    perfil.innerHTML = '<p>Nome: ' + nome + '</p>';
+    perfil.innerHTML += '<p>Idade: ' + idade + '</p>';
+    perfil.innerHTML += '<p>Curso: ' + curso + '</p>';
+    perfil.innerHTML += '<p>Ano: ' + ano + '</p>';
+});
