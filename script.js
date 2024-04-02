@@ -88,15 +88,35 @@
 
 //EXERCÍCIO 7
 
-document.addEventListener('DOMContentLoaded', function() {
-    var perfil = document.getElementById('perfil');
-    var nome = 'Nicolle';
-    var idade = '21';
-    var curso = 'Engenharia de Software';
-    var ano = '1º Ano';
+//document.addEventListener('DOMContentLoaded', function() {
+    //var perfil = document.getElementById('perfil');
+    //var nome = 'Nicolle';
+    //var idade = '21';
+    //var curso = 'Engenharia de Software';
+    //var ano = '1º Ano';
 
-    perfil.innerHTML = '<p>Nome: ' + nome + '</p>';
-    perfil.innerHTML += '<p>Idade: ' + idade + '</p>';
-    perfil.innerHTML += '<p>Curso: ' + curso + '</p>';
-    perfil.innerHTML += '<p>Ano: ' + ano + '</p>';
-});
+    //perfil.innerHTML = '<p>Nome: ' + nome + '</p>';
+    //perfil.innerHTML += '<p>Idade: ' + idade + '</p>';
+    //perfil.innerHTML += '<p>Curso: ' + curso + '</p>';
+    //perfil.innerHTML += '<p>Ano: ' + ano + '</p>';
+//});
+
+//EXERCÍCIO 8
+
+let texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.";
+    
+//Buscando a primeira posição de “em”
+let posicaoEm = texto.indexOf('em');
+console.log('A primeira posição de "em" é: ' + posicaoEm);
+    
+//Buscando a última posição de “ia”
+let posicaoIa = texto.lastIndexOf('ia');
+console.log('A última posição de "ia" é: ' + posicaoIa);
+    
+//Buscando a palavra “ciência”
+let posicaoCiencia = texto.indexOf('ciência');
+console.log('A posição da palavra "ciência" é: ' + posicaoCiencia);
+    
+//Buscando a palavra “métodos”
+let posicaoMetodos = texto.indexOf('métodos');
+console.log('A posição da palavra "métodos" é: ' + posicaoMetodos);
